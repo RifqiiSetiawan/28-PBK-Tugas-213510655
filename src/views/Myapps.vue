@@ -135,6 +135,8 @@ li {
 }
 .filter-buttons {
   margin: 30px 0px;
+  display: flex;
+  justify-content: space-evenly;
 }
 input[type='checkbox']{
   content: "";
@@ -151,6 +153,7 @@ input[type='checkbox']{
 </style>
 <style scoped>
 a{
+
   padding: 10px 20px;
   border: 3px solid #FA9884;
   border-radius: 5px;
@@ -159,12 +162,10 @@ a{
   cursor: pointer;
   margin: 0px 5px;
   font-weight: bolder;
-  box-sizing: border-box;
 }
 a.active{
     color: #FFF3E2  ;
     background-color: #D21312;
     border: none;
-    box-sizing: border-box
 }
 </style>
